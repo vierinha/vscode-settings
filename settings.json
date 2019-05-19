@@ -1,0 +1,42 @@
+{
+    // ===== Visual Stuido Code Settings =====
+    "window.restoreWindows": "none",
+    "workbench.settings.editor": "json",
+    "debug.toolBarLocation": "docked",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "extensions.ignoreRecommendations": true,
+    "extensions.autoUpdate": false,
+    "update.mode": "none",
+    "editor.cursorSmoothCaretAnimation": true,
+
+    // ===== Icons Settings =====
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.projectDetection.disableDetect": true,
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // ===== Java Developmnet Settings =====
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.autobuild.enabled": false,
+    "java.import.gradle.enabled": false,
+    "java.import.maven.enabled": true,
+    "java.debug.settings.showStaticVariables": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+
+    // ===== Windows Specific Settings ====
+    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+    // ===== Proxy Settings ====
+    //"http.proxy": "username:password@example.com:8080",
+    //"java.jdt.ls.vmargs": "-Dhttp.proxyHost=example.com -Dhttp.proxyPort=8080 -Dhttp.proxyUser=username -Dhttp.proxyPassword=password -Dhttps.proxyHost=example.com -Dhttps.proxyPort=8080 -Dhttps.proxyUser=username -Dhttps.proxyPassword=password",
+
+    // ===== File Settings ====
+    "files.associations": {
+        "Dockerfile.*": "dockerfile",
+        "dockerfile.*": "dockerfile",
+    }
+
+}
