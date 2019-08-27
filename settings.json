@@ -3,6 +3,7 @@
     "window.restoreWindows": "none",
     "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
     "debug.toolBarLocation": "docked",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
