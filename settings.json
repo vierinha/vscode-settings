@@ -1,17 +1,17 @@
 {
     // ===== Visual Stuido Code Settings =====
     "window.restoreWindows": "none",
+    "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
     "debug.toolBarLocation": "docked",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "workbench.tips.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
     "extensions.ignoreRecommendations": true,
     "extensions.autoUpdate": false,
     "update.mode": "none",
     "editor.cursorSmoothCaretAnimation": true,
-
+    
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
     "vsicons.projectDetection.disableDetect": true,
