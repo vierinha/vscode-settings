@@ -1,5 +1,5 @@
 {
-    // ===== Visual Stuido Code Settings =====
+    // ===== Visual Studio Code Settings =====
     "window.restoreWindows": "none",
     "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
@@ -37,7 +37,7 @@
     // ===== File Settings ====
     "files.associations": {
         "Dockerfile.*": "dockerfile",
-        "dockerfile.*": "dockerfile",
+        "dockerfile.*": "dockerfile"
     }
 
 }
