@@ -12,6 +12,7 @@
     "extensions.autoUpdate": false,
     "update.mode": "none",
     "editor.cursorSmoothCaretAnimation": true,
+    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
@@ -38,9 +39,6 @@
     //"java.home": "C:\\Java\\jdk8u222",
     //"java.home": "C:\\Java\\jdk11.0.4",
     "maven.terminal.useJavaHome": true,
-
-    // ===== Windows Specific Settings ====
-    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
     // ===== Proxy Settings ====
     //"http.proxy": "username:password@example.com:8080",
