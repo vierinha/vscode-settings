@@ -18,6 +18,12 @@
     "vsicons.projectDetection.disableDetect": true,
     "vsicons.dontShowNewVersionMessage": true,
 
+    // ===== Git Graph Plugin ====
+    "git-graph.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.initialLoadCommits": 300,
+    "git-graph.loadMoreCommits": 300,
+    "git-graph.showStatusBarItem": false,
+
     // ===== Java Developmnet Settings =====
     "java.referencesCodeLens.enabled": true,
     "java.implementationsCodeLens.enabled": true,
