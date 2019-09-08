@@ -50,4 +50,14 @@
         "dockerfile.*": "dockerfile"
     }
 
+    // ===== Visual Studio Code Extensions =====
+    // - vscode-icons - vscode-icons-team.vscode-icons
+    // - XML Tools - dotjoshjohnson.xml
+    // - Git Graph - mhutchie.git-graph
+    // - Language Support for Java(TM) by Red Hat - redhat.java
+    // - Debugger for Java - vscjava.vscode-java-debug
+    // - Maven for Java - vscjava.vscode-maven
+    // - Java Test Runner - vscjava.vscode-java-test
+    // - Java Dependency Viewer - vscjava.vscode-java-dependency
+
 }
