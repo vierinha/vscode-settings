@@ -40,6 +40,10 @@
     //"java.home": "C:\\Java\\jdk11.0.4",
     "maven.terminal.useJavaHome": true,
 
+    // ===== Markdown PDF Plugin ====
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.format": "A4",
+
     // ===== Proxy Settings ====
     //"http.proxy": "username:password@example.com:8080",
     //"java.jdt.ls.vmargs": "-Dhttp.proxyHost=example.com -Dhttp.proxyPort=8080 -Dhttp.proxyUser=username -Dhttp.proxyPassword=password -Dhttps.proxyHost=example.com -Dhttps.proxyPort=8080 -Dhttps.proxyUser=username -Dhttps.proxyPassword=password",
@@ -59,5 +63,6 @@
     // - Maven for Java - vscjava.vscode-maven
     // - Java Test Runner - vscjava.vscode-java-test
     // - Java Dependency Viewer - vscjava.vscode-java-dependency
+    // - Markdown PDF - yzane.markdown-pdf
 
 }
