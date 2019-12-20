@@ -35,9 +35,6 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.format.settings.profile": "formatter",
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
-    "java.home": null,
-    //"java.home": "C:\\Java\\jdk8u232",
-    //"java.home": "C:\\Java\\jdk11.0.5",
     "maven.terminal.useJavaHome": true,
 
     // ===== Markdown PDF Plugin ====
