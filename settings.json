@@ -55,12 +55,14 @@
     // - vscode-icons - vscode-icons-team.vscode-icons
     // - XML Tools - dotjoshjohnson.xml
     // - Git Graph - mhutchie.git-graph
+    // - YAML - redhat.vscode-yaml
+    // - Markdown PDF - yzane.markdown-pdf
+    // - Marp for VS Code - marp-team.marp-vscode
     // - Language Support for Java(TM) by Red Hat - redhat.java
     // - Debugger for Java - vscjava.vscode-java-debug
     // - Maven for Java - vscjava.vscode-maven
     // - Java Test Runner - vscjava.vscode-java-test
     // - Java Dependency Viewer - vscjava.vscode-java-dependency
     // - Dependency Analytics redhat.fabric8-analytics
-    // - Markdown PDF - yzane.markdown-pdf
 
 }
