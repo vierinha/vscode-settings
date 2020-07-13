@@ -26,6 +26,7 @@
     "git-graph.showStatusBarItem": false,
 
     // ===== Java Developmnet Settings =====
+    "java.project.importOnFirstTimeStartup": "automatic",
     "java.referencesCodeLens.enabled": true,
     "java.implementationsCodeLens.enabled": true,
     "java.autobuild.enabled": false,
@@ -36,6 +37,53 @@
     "java.format.settings.profile": "formatter",
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
     "maven.terminal.useJavaHome": true,
+    "java.semanticHighlighting.enabled": true,
+    // - Linux -
+    "java.home": "/usr/lib/jvm/java-11-adoptopenjdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-adoptopenjdk",
+            "sources": "/usr/lib/jvm/java-8-adoptopenjdk/src.zip",
+            "javadoc": "https://docs.oracle.com/javase/8/docs/api"
+        },
+        {
+            "default": true,
+            "name": "JavaSE-11",
+            "path": "/usr/lib/jvm/java-11-adoptopenjdk",
+            "sources": "/usr/lib/jvm/java-11-adoptopenjdk/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+        },
+        {
+            "name": "JavaSE-14",
+            "path": "/usr/lib/jvm/java-14-adoptopenjdk",
+            "sources": "/usr/lib/jvm/java-14-adoptopenjdk/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/14/docs/api"
+        }
+    ],
+    // - Windows -
+    //"java.home": "C:\\java\\jdk-11.0.7+10",
+    //"java.configuration.runtimes": [
+    //    {
+    //        "name": "JavaSE-1.8",
+    //        "path": "C:\\java\\jdk8u252-b09",
+    //        "sources": "C:\\java\\jdk8u252-b09\\src.zip",
+    //        "javadoc": "https://docs.oracle.com/javase/8/docs/api"
+    //    },
+    //    {
+    //        "default": true,
+    //        "name": "JavaSE-11",
+    //        "path": "C:\\java\\jdk-11.0.7+10",
+    //        "sources": "C:\\java\\jdk-11.0.7+10\\lib\\src.zip",
+    //        "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+    //    },
+    //    {
+    //        "name": "JavaSE-14",
+    //        "path": "C:\\java\\jdk-14.0.1+7",
+    //        "sources": "C:\\java\\jdk-14.0.1+7\\lib\\src.zip",
+    //        "javadoc": "https://docs.oracle.com/en/java/javase/14/docs/api"
+    //    }
+    //],
 
     // ===== Markdown PDF Plugin ====
     "markdown-pdf.displayHeaderFooter": false,
