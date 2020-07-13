@@ -85,6 +85,9 @@
     //    }
     //],
 
+    // ===== Go Developmnet Settings =====
+    "go.useLanguageServer": true,
+
     // ===== Markdown PDF Plugin ====
     "markdown-pdf.displayHeaderFooter": false,
     "markdown-pdf.format": "A4",
@@ -113,6 +116,8 @@
     // - Java Dependency Viewer - vscjava.vscode-java-dependency
     // - Dependency Analytics - redhat.fabric8-analytics
     // - SonarLint - sonarsource.sonarlint-vscode
+    // --- Go ---
+    // - Go - golang.go
     // --- Markdown ---
     // - Markdown PDF - yzane.markdown-pdf
     // - Marp for VS Code - marp-team.marp-vscode
