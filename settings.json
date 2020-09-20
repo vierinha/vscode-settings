@@ -14,6 +14,7 @@
     "update.mode": "none",
     "editor.cursorSmoothCaretAnimation": true,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "diffEditor.ignoreTrimWhitespace": false,
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
@@ -21,9 +22,9 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // ===== Git Graph Plugin ====
-    "git-graph.combineLocalAndRemoteBranchLabels": false,
-    "git-graph.initialLoadCommits": 300,
-    "git-graph.loadMoreCommits": 300,
+    "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.repository.commits.initialLoad": 300,
+    "git-graph.repository.commits.loadMore": 300,
     "git-graph.showStatusBarItem": false,
 
     // ===== Java Developmnet Settings =====
