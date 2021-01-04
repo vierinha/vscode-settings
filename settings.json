@@ -41,6 +41,7 @@
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
     "maven.terminal.useJavaHome": true,
     "java.semanticHighlighting.enabled": true,
+    "java.refactor.renameFromFileExplorer": "preview",
     // - Linux -
     "java.home": "/usr/lib/jvm/java-11-adoptopenjdk",
     "java.configuration.runtimes": [
@@ -58,10 +59,10 @@
             "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
         },
         {
-            "name": "JavaSE-14",
-            "path": "/usr/lib/jvm/java-14-adoptopenjdk",
-            "sources": "/usr/lib/jvm/java-14-adoptopenjdk/lib/src.zip",
-            "javadoc": "https://docs.oracle.com/en/java/javase/14/docs/api"
+            "name": "JavaSE-15",
+            "path": "/usr/lib/jvm/java-15-adoptopenjdk",
+            "sources": "/usr/lib/jvm/java-15-adoptopenjdk/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/15/docs/api"
         }
     ],
     // - Windows -
@@ -81,10 +82,10 @@
     //        "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
     //    },
     //    {
-    //        "name": "JavaSE-14",
-    //        "path": "C:\\java\\jdk-14.0.1+7",
-    //        "sources": "C:\\java\\jdk-14.0.1+7\\lib\\src.zip",
-    //        "javadoc": "https://docs.oracle.com/en/java/javase/14/docs/api"
+    //        "name": "JavaSE-15",
+    //        "path": "C:\\java\\jdk-15.0.1+9",
+    //        "sources": "C:\\java\\jdk-15.0.1+9\\lib\\src.zip",
+    //        "javadoc": "https://docs.oracle.com/en/java/javase/15/docs/api"
     //    }
     //],
 
@@ -109,6 +110,7 @@
     // - vscode-icons - vscode-icons-team.vscode-icons
     // - XML Tools - dotjoshjohnson.xml
     // - YAML - redhat.vscode-yaml
+    // - Better TOML - bungcip.better-toml
     // - Git Graph - mhutchie.git-graph
     // - Git Blame - waderyan.gitblame
     // --- Java ---
@@ -116,7 +118,7 @@
     // - Debugger for Java - vscjava.vscode-java-debug
     // - Maven for Java - vscjava.vscode-maven
     // - Java Test Runner - vscjava.vscode-java-test
-    // - Java Dependency Viewer - vscjava.vscode-java-dependency
+    // - Project Manager for Java - vscjava.vscode-java-dependency
     // - Dependency Analytics - redhat.fabric8-analytics
     // - SonarLint - sonarsource.sonarlint-vscode
     // --- Go ---
