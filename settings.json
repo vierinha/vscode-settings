@@ -15,6 +15,10 @@
     "editor.cursorSmoothCaretAnimation": true,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.decorations.badges":false,
+    "workbench.editor.decorations.colors": false,
+    "editor.fontFamily": "'Cascadia Code'",
+	"editor.fontLigatures": true,
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
@@ -26,6 +30,9 @@
     "git-graph.repository.commits.initialLoad": 300,
     "git-graph.repository.commits.loadMore": 300,
     "git-graph.showStatusBarItem": false,
+
+    // ===== RedHat Plugins ====
+    "redhat.telemetry.enabled": false,
 
     // ===== Java Developmnet Settings =====
     "java.project.importOnFirstTimeStartup": "automatic",
@@ -41,7 +48,6 @@
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
     "maven.terminal.useJavaHome": true,
     "java.semanticHighlighting.enabled": true,
-    "java.refactor.renameFromFileExplorer": "preview",
     // - Linux -
     "java.home": "/usr/lib/jvm/java-11-adoptopenjdk",
     "java.configuration.runtimes": [
@@ -57,12 +63,6 @@
             "path": "/usr/lib/jvm/java-11-adoptopenjdk",
             "sources": "/usr/lib/jvm/java-11-adoptopenjdk/lib/src.zip",
             "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
-        },
-        {
-            "name": "JavaSE-15",
-            "path": "/usr/lib/jvm/java-15-adoptopenjdk",
-            "sources": "/usr/lib/jvm/java-15-adoptopenjdk/lib/src.zip",
-            "javadoc": "https://docs.oracle.com/en/java/javase/15/docs/api"
         }
     ],
     // - Windows -
@@ -80,17 +80,12 @@
     //        "path": "C:\\java\\jdk-11.0.7+10",
     //        "sources": "C:\\java\\jdk-11.0.7+10\\lib\\src.zip",
     //        "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
-    //    },
-    //    {
-    //        "name": "JavaSE-15",
-    //        "path": "C:\\java\\jdk-15.0.1+9",
-    //        "sources": "C:\\java\\jdk-15.0.1+9\\lib\\src.zip",
-    //        "javadoc": "https://docs.oracle.com/en/java/javase/15/docs/api"
     //    }
     //],
 
     // ===== Go Developmnet Settings =====
     "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
 
     // ===== Markdown PDF Plugin ====
     "markdown-pdf.displayHeaderFooter": false,
