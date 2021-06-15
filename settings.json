@@ -18,10 +18,13 @@
     "workbench.editor.decorations.badges":false,
     "workbench.editor.decorations.colors": false,
     "editor.fontFamily": "'Cascadia Code'",
-	"editor.fontLigatures": true,
+    "editor.fontLigatures": true,
+    "security.workspace.trust.enabled" : false,
+    "workbench.editor.untitled.hint": "hidden",
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "fluent-icons",
     "vsicons.projectDetection.disableDetect": true,
     "vsicons.dontShowNewVersionMessage": true,
 
@@ -63,25 +66,37 @@
             "path": "/usr/lib/jvm/java-11-adoptopenjdk",
             "sources": "/usr/lib/jvm/java-11-adoptopenjdk/lib/src.zip",
             "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+        },
+        {
+            "name": "JavaSE-16",
+            "path": "/usr/lib/jvm/java-16-adoptopenjdk",
+            "sources": "/usr/lib/jvm/java-16-adoptopenjdk/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/16/docs/api"
         }
     ],
     // - Windows -
-    //"java.home": "C:\\java\\jdk-11.0.7+10",
+    //"java.home": "C:\\java\\jdk-11.0.11+9",
     //"java.configuration.runtimes": [
     //    {
-    //        "name": "JavaSE-1.8",
-    //        "path": "C:\\java\\jdk8u252-b09",
-    //        "sources": "C:\\java\\jdk8u252-b09\\src.zip",
-    //        "javadoc": "https://docs.oracle.com/javase/8/docs/api"
+    //      "name": "JavaSE-1.8",
+    //      "path": "C:\\java\\jdk8u292-b10",
+    //      "sources": "C:\\java\\jdk8u292-b10\\src.zip",
+    //      "javadoc": "https://docs.oracle.com/javase/8/docs/api"
     //    },
     //    {
-    //        "default": true,
-    //        "name": "JavaSE-11",
-    //        "path": "C:\\java\\jdk-11.0.7+10",
-    //        "sources": "C:\\java\\jdk-11.0.7+10\\lib\\src.zip",
-    //        "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+    //      "default": true,
+    //      "name": "JavaSE-11",
+    //      "path": "C:\\java\\jdk-11.0.11+9",
+    //      "sources": "C:\\java\\jdk-11.0.11+9\\lib\\src.zip",
+    //      "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
+    //    },
+    //    {
+    //      "name": "JavaSE-16",
+    //      "path": "C:\\java\\jdk-16.0.1+9",
+    //      "sources": "C:\\java\\jdk-16.0.1+9\\lib\\src.zip",
+    //      "javadoc": "https://docs.oracle.com/en/java/javase/16/docs/api"
     //    }
-    //],
+    //  ],
 
     // ===== Go Developmnet Settings =====
     "go.useLanguageServer": true,
@@ -103,6 +118,7 @@
 
     // ===== Visual Studio Code Extensions =====
     // - vscode-icons - vscode-icons-team.vscode-icons
+    // - Fluent Icons - miguelsolorio.fluent-icons
     // - XML Tools - dotjoshjohnson.xml
     // - YAML - redhat.vscode-yaml
     // - Better TOML - bungcip.better-toml
