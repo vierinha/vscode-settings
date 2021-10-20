@@ -13,7 +13,8 @@
     "extensions.autoUpdate": false,
     "update.mode": "none",
     "editor.cursorSmoothCaretAnimation": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.decorations.badges":false,
     "workbench.editor.decorations.colors": false,
@@ -68,10 +69,10 @@
             "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
         },
         {
-            "name": "JavaSE-16",
-            "path": "/usr/lib/jvm/java-16-eclipse-temurin",
-            "sources": "/usr/lib/jvm/java-16-eclipse-temurin/lib/src.zip",
-            "javadoc": "https://docs.oracle.com/en/java/javase/16/docs/api"
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-eclipse-temurin",
+            "sources": "/usr/lib/jvm/java-17-eclipse-temurin/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api"
         }
     ],
     // - Windows -
@@ -91,10 +92,10 @@
     //      "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
     //    },
     //    {
-    //      "name": "JavaSE-16",
-    //      "path": "C:\\java\\jdk-16.0.2+7",
-    //      "sources": "C:\\java\\jdk-16.0.2+7\\lib\\src.zip",
-    //      "javadoc": "https://docs.oracle.com/en/java/javase/16/docs/api"
+    //      "name": "JavaSE-17",
+    //      "path": "C:\\java\\jdk-17+35",
+    //      "sources": "C:\\java\\jdk-17+35\\lib\\src.zip",
+    //      "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api"
     //    }
     //  ],
 
