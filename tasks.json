@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Spring Boot Run - DEV",
+            "type": "shell",
+            "command": "mvn spring-boot:run -Dspring-boot.run.jvmArguments=\"-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005\" -P DEV",
+            "isBackground": false
+        },
+        {
+            "label": "Quarkus - DEV",
+            "type": "shell",
+            "command": "mvn clean compile quarkus:dev -Ddebug=5005",
+            "isBackground": false
+        }
+    ]
+}
