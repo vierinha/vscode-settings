@@ -1,7 +1,7 @@
 {
     // ===== Visual Studio Code Settings =====
     "window.restoreWindows": "none",
-    "window.titleBarStyle": "custom",
+    // "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "debug.toolBarLocation": "docked",
@@ -15,6 +15,7 @@
     "editor.cursorSmoothCaretAnimation": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.automationProfile.windows": null,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.decorations.badges":false,
     "workbench.editor.decorations.colors": false,
@@ -22,6 +23,10 @@
     "editor.fontLigatures": true,
     "security.workspace.trust.enabled" : false,
     "workbench.editor.untitled.hint": "hidden",
+    "terminal.integrated.enablePersistentSessions": false,
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    },
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
@@ -47,13 +52,12 @@
     "java.import.maven.enabled": true,
     "maven.executable.preferMavenWrapper": false,
     "java.debug.settings.showStaticVariables": false,
-    "java.configuration.checkProjectSettingsExclusions": false,
     "java.format.settings.profile": "formatter",
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
     "maven.terminal.useJavaHome": true,
     "java.semanticHighlighting.enabled": true,
     // - Linux -
-    "java.home": "/usr/lib/jvm/java-11-eclipse-temurin",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-11-eclipse-temurin",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
@@ -76,7 +80,7 @@
         }
     ],
     // - Windows -
-    //"java.home": "C:\\java\\jdk-11.0.12+7",
+    //"java.jdt.ls.java.home": "C:\\java\\jdk-11.0.12+7",
     //"java.configuration.runtimes": [
     //    {
     //      "name": "JavaSE-1.8",
@@ -114,7 +118,8 @@
     // ===== File Settings ====
     "files.associations": {
         "Dockerfile.*": "dockerfile",
-        "dockerfile.*": "dockerfile"
+        "dockerfile.*": "dockerfile",
+        "*.nomad": "terraform"
     }
 
     // ===== Visual Studio Code Extensions =====
