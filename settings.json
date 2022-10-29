@@ -1,7 +1,7 @@
 {
     // ===== Visual Studio Code Settings =====
     "window.restoreWindows": "none",
-    // "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "custom",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "debug.toolBarLocation": "docked",
@@ -24,13 +24,9 @@
     "security.workspace.trust.enabled" : false,
     "workbench.editor.untitled.hint": "hidden",
     "terminal.integrated.enablePersistentSessions": false,
-    "task.problemMatchers.neverPrompt": {
-        "shell": true
-    },
 
     // ===== Icons Settings =====
     "workbench.iconTheme": "vscode-icons",
-    "workbench.productIconTheme": "fluent-icons",
     "vsicons.projectDetection.disableDetect": true,
     "vsicons.dontShowNewVersionMessage": true,
 
@@ -39,9 +35,6 @@
     "git-graph.repository.commits.initialLoad": 300,
     "git-graph.repository.commits.loadMore": 300,
     "git-graph.showStatusBarItem": false,
-
-    // ===== RedHat Plugins ====
-    "redhat.telemetry.enabled": false,
 
     // ===== Java Developmnet Settings =====
     "java.project.importOnFirstTimeStartup": "automatic",
@@ -55,9 +48,10 @@
     "java.format.settings.profile": "formatter",
     "java.format.settings.url": "https://raw.githubusercontent.com/revelc/formatter-maven-plugin/master/src/main/resources/formatter-maven-plugin/eclipse/java.xml",
     "maven.terminal.useJavaHome": true,
-    "java.semanticHighlighting.enabled": true,
+    "java.eclipse.downloadSources": true,
+    "java.import.generatesMetadataFilesAtProjectRoot": true,
     // - Linux -
-    "java.jdt.ls.java.home": "/usr/lib/jvm/java-11-eclipse-temurin",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-eclipse-temurin",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
@@ -66,40 +60,52 @@
             "javadoc": "https://docs.oracle.com/javase/8/docs/api"
         },
         {
-            "default": true,
             "name": "JavaSE-11",
             "path": "/usr/lib/jvm/java-11-eclipse-temurin",
             "sources": "/usr/lib/jvm/java-11-eclipse-temurin/lib/src.zip",
             "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
         },
         {
+            "default": true,
             "name": "JavaSE-17",
             "path": "/usr/lib/jvm/java-17-eclipse-temurin",
             "sources": "/usr/lib/jvm/java-17-eclipse-temurin/lib/src.zip",
             "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api"
+        },
+        {
+            "name": "JavaSE-19",
+            "path": "/usr/lib/jvm/java-19-eclipse-temurin",
+            "sources": "/usr/lib/jvm/java-19-eclipse-temurin/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/19/docs/api"
         }
     ],
     // - Windows -
-    //"java.jdt.ls.java.home": "C:\\java\\jdk-11.0.12+7",
+    //"java.jdt.ls.java.home": "C:\\java\\jdk-17.0.5+8",
     //"java.configuration.runtimes": [
     //    {
     //      "name": "JavaSE-1.8",
-    //      "path": "C:\\java\\jdk8u302-b08",
-    //      "sources": "C:\\java\\jdk8u302-b08\\src.zip",
+    //      "path": "C:\\java\\jdk8u352-b08",
+    //      "sources": "C:\\java\\jdk8u352-b08\\src.zip",
     //      "javadoc": "https://docs.oracle.com/javase/8/docs/api"
     //    },
     //    {
-    //      "default": true,
     //      "name": "JavaSE-11",
-    //      "path": "C:\\java\\jdk-11.0.12+7",
-    //      "sources": "C:\\java\\jdk-11.0.12+7\\lib\\src.zip",
+    //      "path": "C:\\java\\jdk-11.0.17+8",
+    //      "sources": "C:\\java\\jdk-11.0.17+8\\lib\\src.zip",
     //      "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api"
     //    },
     //    {
+    //      "default": true,
     //      "name": "JavaSE-17",
-    //      "path": "C:\\java\\jdk-17+35",
-    //      "sources": "C:\\java\\jdk-17+35\\lib\\src.zip",
+    //      "path": "C:\\java\\jdk-17.0.5+8",
+    //      "sources": "C:\\java\\jdk-17.0.5+8\\lib\\src.zip",
     //      "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api"
+    //    },
+    //    {
+    //      "name": "JavaSE-19",
+    //      "path": "C:\\java\\jdk-19.0.1+10",
+    //      "sources": "C:\\java\\jdk-19.0.1+10\\lib\\src.zip",
+    //      "javadoc": "https://docs.oracle.com/en/java/javase/19/docs/api"
     //    }
     //  ],
 
@@ -111,20 +117,18 @@
     "markdown-pdf.displayHeaderFooter": false,
     "markdown-pdf.format": "A4",
 
-    // ===== Proxy Settings ====
-    //"http.proxy": "username:password@example.com:8080",
-    //"java.jdt.ls.vmargs": "-Dhttp.proxyHost=example.com -Dhttp.proxyPort=8080 -Dhttp.proxyUser=username -Dhttp.proxyPassword=password -Dhttps.proxyHost=example.com -Dhttps.proxyPort=8080 -Dhttps.proxyUser=username -Dhttps.proxyPassword=password",
-
     // ===== File Settings ====
     "files.associations": {
         "Dockerfile.*": "dockerfile",
         "dockerfile.*": "dockerfile",
         "*.nomad": "terraform"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
     }
 
     // ===== Visual Studio Code Extensions =====
     // - vscode-icons - vscode-icons-team.vscode-icons
-    // - Fluent Icons - miguelsolorio.fluent-icons
     // - XML Tools - dotjoshjohnson.xml
     // - YAML - redhat.vscode-yaml
     // - Better TOML - bungcip.better-toml
